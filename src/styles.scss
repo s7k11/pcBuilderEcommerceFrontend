@@ -1,1 +1,73 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Quicksand';
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('./assets/fonts/Quicksand-Light.woff2') format('woff2'),
+        url('./assets/fonts/Quicksand-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('./assets/fonts/Quicksand-SemiBold.woff2') format('woff2'),
+        url('./assets/fonts/Quicksand-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('./assets/fonts/Quicksand-Bold.woff2') format('woff2'),
+        url('./assets/fonts/Quicksand-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('./assets/fonts/Quicksand-Medium.woff2') format('woff2'),
+        url('./assets/fonts/Quicksand-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('./assets/fonts/Quicksand-Regular.woff2') format('woff2'),
+        url('./assets/fonts/Quicksand-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+//////////////scrollbar config
+::-webkit-scrollbar-track
+{
+	// -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #e5e5e5;
+}
+
+::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #e5e5e5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #14213d;
+}
+
+
+

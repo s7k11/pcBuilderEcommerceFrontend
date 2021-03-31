@@ -1,0 +1,130 @@
+
+////////////////////landingBox
+.landingBox{
+    // height:450px;
+    width:100%;
+    background-color: #14213d;
+}
+.paddingReset{
+    padding: 0px;
+}
+.landing-button{
+    // width:25%;
+    border-radius:25px;
+    border:none;
+    border: 2px solid #D4EBFF;
+    padding:12px 50px;
+    background-color:#D4EBFF;
+    // color: #e5e5e5;
+    outline:none;
+    color:#0e1d2b;
+    align-self: center;
+    font-size:16px;
+    font-weight: 600;
+    // margin:10px
+}
+.mainHeadingContainer{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    
+}
+.bigHeading{
+    flex:1;
+    font-size:55px;
+    align-self: flex-start;
+    font-weight: 700;
+}
+.smallHeading{
+    flex:1;
+    font-size:25px;
+    align-self: start;
+    font-weight: 300;
+    // margin-right: 50%;
+}
+
+.text-color{
+    color:#e5e5e5
+}
+
+.landingImage{
+    // height:500px;
+    width:100%;
+}
+
+//////////////////////////browse content
+.card{
+    height:500px !important;
+}
+.card-image{
+    // height:250px;
+    height:100%;
+    // width:100%;
+}
+.card-header{
+    height:250px !important;
+    // background-color:red;
+    background-color: transparent !important;
+    border:none;
+}
+.card-footer{
+    border:none !important;
+    background-color:transparent !important;
+}
+.card-text{
+    font-size:14px
+}
+.view-button{
+    // width:25%;
+    border-radius:25px;
+    border:none;
+    // border: 2px solid #D4EBFF;
+    padding:12px 60px;
+    background-color:#0e1d2b;
+    // color: #e5e5e5;
+    outline:none;
+    color:#fff;
+    align-self: center;
+    font-size:16px;
+    font-weight: 600;
+    // margin:10px
+}
+
+
+@media only screen and (max-width: 600px) {
+    .bigHeading{
+        flex:1;
+        font-size:40px;
+        align-self: flex-start;
+        font-weight: 700;
+    }
+    .smallHeading{
+        flex:1;
+        font-size:20px;
+        align-self: start;
+        font-weight: 300;
+        // margin-right: 50%;
+    }
+    
+    .landingImage{
+        margin-top: 5%;
+        height:200px;
+        width:200px;
+    }
+    .landing-button{
+        // width:25%;
+        border-radius:25px;
+        border:none;
+        border: 1px solid #D4EBFF;
+        padding:8px 30px;
+        background-color:#D4EBFF;
+        // color: #e5e5e5;
+        outline:none;
+        color:#0e1d2b;
+        align-self: center;
+        font-size:16px;
+        font-weight: 600;
+        // margin:10px
+    }
+
+}
